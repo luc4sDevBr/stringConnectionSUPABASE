@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AllStrock", "AllStrock\AllStrock.vbproj", "{11E3529C-69F0-4677-A50B-761B407505AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E3529C-69F0-4677-A50B-761B407505AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E3529C-69F0-4677-A50B-761B407505AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E3529C-69F0-4677-A50B-761B407505AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E3529C-69F0-4677-A50B-761B407505AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39BC3636-DAF2-4AF0-AB3F-CE98244DA34A}
+	EndGlobalSection
+EndGlobal
