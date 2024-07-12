@@ -53,3 +53,5 @@ C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\bin\Debug\net8.0-window
 C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\bin\Debug\net8.0-windows\Npgsql.dll
 C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\bin\Debug\net8.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\obj\Debug\net8.0-windows\AllStrock.HomePage.resources
+C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\obj\Debug\net8.0-windows\AllStrock.sourcelink.json
