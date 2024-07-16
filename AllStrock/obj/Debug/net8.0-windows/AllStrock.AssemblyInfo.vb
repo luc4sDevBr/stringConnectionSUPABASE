@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("AllStrock"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c497c72ae6fb0f61dbfd13fa48886ba28b4ea288"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b5d33c9cd9377cde5ed82b6ec41f3284ddcf0e2"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("AllStrock"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("AllStrock"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
