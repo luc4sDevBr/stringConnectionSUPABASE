@@ -5,11 +5,12 @@ Public Class Dao
     Public SQLCNN As New NpgsqlConnection()
     ' Configuração da string de conexão
     Public host As String = "aws-0-sa-east-1.pooler.supabase.com"
-    Public port As String = "6543"
+    Public port As String = "5432"
     Public database As String = "postgres"
     Public username As String = "postgres.uocrgevtqfiqtfxioivk"
     Public password As String = "Vickalves562710#"
-    Public connectionString As String = $"Host={host};Port={port};Database={database};Username={username};Password={password};"
+    Public timeout As Integer = 3
+    Public connectionString As String = $"Host={host};Port={port};Database={database};Username={username};Password={password};Timeout={timeout};"
 
     Public Sub conectar()
 
