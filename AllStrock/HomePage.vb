@@ -61,14 +61,45 @@
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        ProximaPagina(TabForm)
+        Try
 
-        Dim frm2 As New CadastroUsuario
-        frm2.TopLevel = False
-        frm2.FormBorderStyle = FormBorderStyle.None
-        Me.TabForm.Controls.Add(frm2)
-        frm2.Dock = DockStyle.Fill
-        frm2.Show()
+            ProximaPagina(TabForm)
+            Me.TabForm.Controls.Clear()
+            Dim frm2 As New CadastroUsuario
+            frm2.TopLevel = False
+            frm2.FormBorderStyle = FormBorderStyle.None
+            Me.TabForm.Controls.Add(frm2)
+            frm2.Dock = DockStyle.Fill
+            frm2.Show()
 
+
+        Catch ex As Exception
+
+        End Try
+
+
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Try
+
+            ProximaPagina(TabForm)
+            Me.TabForm.Controls.Clear()
+            Dim frm1 As New VizualizarUsuario
+            frm1.TopLevel = False
+            frm1.FormBorderStyle = FormBorderStyle.None
+            Me.TabForm.Controls.Add(frm1)
+            frm1.Dock = DockStyle.Fill
+            frm1.Show()
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        ProximaPagina(HomeLogo)
     End Sub
 End Class

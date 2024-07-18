@@ -56,3 +56,4 @@ C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\bin\Debug\net8.0-window
 C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\obj\Debug\net8.0-windows\AllStrock.HomePage.resources
 C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\obj\Debug\net8.0-windows\AllStrock.sourcelink.json
 C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\obj\Debug\net8.0-windows\AllStrock.CadastroUsuario.resources
+C:\Users\CADASTRO UNICO\source\repos\AllStrock\AllStrock\obj\Debug\net8.0-windows\AllStrock.VizualizarUsuario.resources

@@ -43,6 +43,9 @@ Partial Class HomePage
         Panel3 = New Panel()
         StatusStrip1 = New StatusStrip()
         ToolStripStatusLabel1 = New ToolStripStatusLabel()
+        Panel4 = New Panel()
+        Panel5 = New Panel()
+        Button7 = New Button()
         TableLayoutPanel1.SuspendLayout()
         Panel1.SuspendLayout()
         tabEscolhaEPI.SuspendLayout()
@@ -50,6 +53,8 @@ Partial Class HomePage
         Panel2.SuspendLayout()
         Panel3.SuspendLayout()
         StatusStrip1.SuspendLayout()
+        Panel4.SuspendLayout()
+        Panel5.SuspendLayout()
         SuspendLayout()
         ' 
         ' TableLayoutPanel1
@@ -109,8 +114,8 @@ Partial Class HomePage
         ' 
         ' pnlEscolhaFun
         ' 
-        pnlEscolhaFun.Controls.Add(Button6)
-        pnlEscolhaFun.Controls.Add(Button5)
+        pnlEscolhaFun.Controls.Add(Panel5)
+        pnlEscolhaFun.Controls.Add(Panel4)
         pnlEscolhaFun.Location = New Point(4, 29)
         pnlEscolhaFun.Name = "pnlEscolhaFun"
         pnlEscolhaFun.Padding = New Padding(3)
@@ -129,7 +134,7 @@ Partial Class HomePage
         Button6.FlatStyle = FlatStyle.Flat
         Button6.Font = New Font("Segoe UI Light", 16.2F)
         Button6.ForeColor = Color.Black
-        Button6.Location = New Point(592, 67)
+        Button6.Location = New Point(531, 38)
         Button6.Name = "Button6"
         Button6.Size = New Size(287, 234)
         Button6.TabIndex = 11
@@ -146,7 +151,7 @@ Partial Class HomePage
         Button5.FlatStyle = FlatStyle.Flat
         Button5.Font = New Font("Segoe UI Light", 16.2F)
         Button5.ForeColor = Color.Black
-        Button5.Location = New Point(105, 67)
+        Button5.Location = New Point(157, 38)
         Button5.Name = "Button5"
         Button5.Size = New Size(287, 234)
         Button5.TabIndex = 10
@@ -307,6 +312,39 @@ Partial Class HomePage
         ToolStripStatusLabel1.Size = New Size(101, 20)
         ToolStripStatusLabel1.Text = "Versão: 0.0.0.0"
         ' 
+        ' Panel4
+        ' 
+        Panel4.Controls.Add(Button7)
+        Panel4.Dock = DockStyle.Top
+        Panel4.Location = New Point(3, 3)
+        Panel4.Name = "Panel4"
+        Panel4.Size = New Size(989, 35)
+        Panel4.TabIndex = 12
+        ' 
+        ' Panel5
+        ' 
+        Panel5.Controls.Add(Button5)
+        Panel5.Controls.Add(Button6)
+        Panel5.Dock = DockStyle.Fill
+        Panel5.Location = New Point(3, 38)
+        Panel5.Name = "Panel5"
+        Panel5.Size = New Size(989, 559)
+        Panel5.TabIndex = 13
+        ' 
+        ' Button7
+        ' 
+        Button7.Anchor = AnchorStyles.Left
+        Button7.FlatStyle = FlatStyle.Flat
+        Button7.Font = New Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button7.Location = New Point(3, 5)
+        Button7.Name = "Button7"
+        Button7.Size = New Size(29, 27)
+        Button7.TabIndex = 4
+        Button7.Text = "<"
+        Button7.TextAlign = ContentAlignment.MiddleLeft
+        Button7.TextImageRelation = TextImageRelation.TextAboveImage
+        Button7.UseVisualStyleBackColor = True
+        ' 
         ' HomePage
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -326,6 +364,8 @@ Partial Class HomePage
         Panel3.PerformLayout()
         StatusStrip1.ResumeLayout(False)
         StatusStrip1.PerformLayout()
+        Panel4.ResumeLayout(False)
+        Panel5.ResumeLayout(False)
         ResumeLayout(False)
     End Sub
 
@@ -350,4 +390,7 @@ Partial Class HomePage
     Friend WithEvents Button6 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents TabForm As TabPage
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Button7 As Button
 End Class
