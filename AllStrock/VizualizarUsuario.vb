@@ -59,4 +59,17 @@ Public Class VizualizarUsuario
         HomePage.ProximaPagina(HomePage.pnlEscolhaFun)
     End Sub
 
+    Private Sub ListView1_DoubleClick(sender As Object, e As EventArgs) Handles ListView1.DoubleClick
+        Try
+            If Me.ListView1.SelectedItems.Count <> 0 Then
+
+                Dim selectedItem As ListViewItem = Me.ListView1.SelectedItems(0)
+                Variaveis.codusuario = selectedItem.Text
+                AlteraUsuario.Show()
+
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Class
